@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D14D4CF1C61903000DA3C60 /* cellViewForPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D14D4CE1C61903000DA3C60 /* cellViewForPassword.xib */; };
+		3D14D4D11C61930D00DA3C60 /* cellViewForPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14D4D01C61930D00DA3C60 /* cellViewForPasswordController.swift */; };
+		3D14D4D31C6197E000DA3C60 /* switchCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D14D4D21C6197E000DA3C60 /* switchCellViewController.xib */; };
+		3D14D4D51C6197F400DA3C60 /* infoCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D14D4D41C6197F400DA3C60 /* infoCellViewController.xib */; };
+		3D14D4D71C6198B200DA3C60 /* switchCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14D4D61C6198B200DA3C60 /* switchCellViewController.swift */; };
+		3D14D4D91C619A3600DA3C60 /* infoCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14D4D81C619A3600DA3C60 /* infoCellViewController.swift */; };
+		3D14D4DB1C619ACD00DA3C60 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14D4DA1C619ACD00DA3C60 /* SettingsTableViewController.swift */; };
+		3D14D4DD1C619B5E00DA3C60 /* logoutButtonCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D14D4DC1C619B5E00DA3C60 /* logoutButtonCellViewController.xib */; };
+		3D14D4DF1C61A20C00DA3C60 /* logoutCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14D4DE1C61A20C00DA3C60 /* logoutCellViewController.swift */; };
+		3D321BCF1BA762DD00AA3E00 /* SignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D321BCE1BA762DD00AA3E00 /* SignatureViewController.swift */; };
+		3D321BD11BA762F800AA3E00 /* QuestionnairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D321BD01BA762F700AA3E00 /* QuestionnairViewController.swift */; };
+		3D321BD31BA76FF200AA3E00 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D321BD21BA76FF200AA3E00 /* Line.swift */; };
+		3D321BD51BA775B400AA3E00 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D321BD41BA775B400AA3E00 /* DrawView.swift */; };
+		3D3867B91B9B4AA8000D7138 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3867B81B9B4AA8000D7138 /* LoginViewController.swift */; };
+		3D3867BB1B9B6AEA000D7138 /* TasksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3867BA1B9B6AEA000D7138 /* TasksListViewController.swift */; };
+		3D3867BD1B9B7EB2000D7138 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3867BC1B9B7EB2000D7138 /* MapViewController.swift */; };
+		3D3867C01B9B869A000D7138 /* DirectionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3867BF1B9B869A000D7138 /* DirectionsManager.swift */; };
+		3D39AACD1BAB7EEA004A6B30 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39AACC1BAB7EEA004A6B30 /* RatingControl.swift */; };
+		3D39AACF1BAB7FD2004A6B30 /* questionnaireCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D39AACE1BAB7FD2004A6B30 /* questionnaireCellView.xib */; };
+		3D39AAD11BAB8AF0004A6B30 /* QuestionnaireTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39AAD01BAB8AF0004A6B30 /* QuestionnaireTableViewCell.swift */; };
+		3D4082021B9F710500EBE92B /* DeliverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4082011B9F710500EBE92B /* DeliverViewController.swift */; };
+		3D4082041B9F711A00EBE92B /* PickupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4082031B9F711A00EBE92B /* PickupViewController.swift */; };
+		3D8759D71BA02E2800CE0205 /* TableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8759D61BA02E2800CE0205 /* TableViewCellController.swift */; };
+		3DD23BBE1BA95FF500620F06 /* GlobalValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23BBD1BA95FF500620F06 /* GlobalValues.swift */; };
+		3DE9D8901BA01C3100824C25 /* cellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DE9D88F1BA01C3100824C25 /* cellView.xib */; };
+		3DF224B21BA5BCC700B0AFAA /* TasksListChangesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF224B11BA5BCC600B0AFAA /* TasksListChangesViewController.swift */; };
+		6AF60DF2C4D094B15A63CC42 /* Pods_BikePonyExpress_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01767908CEDEFE15A91EBCEB /* Pods_BikePonyExpress_iOS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7A0435A21B6E9D4F00C5D89E /* BPEAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0435A11B6E9D4F00C5D89E /* BPEAPI.swift */; };
+		7ACE108D1B71173E00DA2A5C /* BPEAPI-Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE108C1B71173E00DA2A5C /* BPEAPI-Types.swift */; };
+		7AD466121B6E9A5000F854F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD466111B6E9A5000F854F2 /* AppDelegate.swift */; };
+		7AD466191B6E9A5000F854F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD466171B6E9A5000F854F2 /* Main.storyboard */; };
+		7AD4661B1B6E9A5000F854F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4661A1B6E9A5000F854F2 /* Assets.xcassets */; };
+		7AD4661E1B6E9A5000F854F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4661C1B6E9A5000F854F2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01767908CEDEFE15A91EBCEB /* Pods_BikePonyExpress_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikePonyExpress_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D14D4CE1C61903000DA3C60 /* cellViewForPassword.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellViewForPassword.xib; sourceTree = "<group>"; };
+		3D14D4D01C61930D00DA3C60 /* cellViewForPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellViewForPasswordController.swift; sourceTree = "<group>"; };
+		3D14D4D21C6197E000DA3C60 /* switchCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = switchCellViewController.xib; sourceTree = "<group>"; };
+		3D14D4D41C6197F400DA3C60 /* infoCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = infoCellViewController.xib; sourceTree = "<group>"; };
+		3D14D4D61C6198B200DA3C60 /* switchCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = switchCellViewController.swift; sourceTree = "<group>"; };
+		3D14D4D81C619A3600DA3C60 /* infoCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoCellViewController.swift; sourceTree = "<group>"; };
+		3D14D4DA1C619ACD00DA3C60 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		3D14D4DC1C619B5E00DA3C60 /* logoutButtonCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = logoutButtonCellViewController.xib; sourceTree = "<group>"; };
+		3D14D4DE1C61A20C00DA3C60 /* logoutCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logoutCellViewController.swift; sourceTree = "<group>"; };
+		3D321BCE1BA762DD00AA3E00 /* SignatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureViewController.swift; sourceTree = "<group>"; };
+		3D321BD01BA762F700AA3E00 /* QuestionnairViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionnairViewController.swift; sourceTree = "<group>"; };
+		3D321BD21BA76FF200AA3E00 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		3D321BD41BA775B400AA3E00 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		3D3867B81B9B4AA8000D7138 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D3867BA1B9B6AEA000D7138 /* TasksListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksListViewController.swift; sourceTree = "<group>"; };
+		3D3867BC1B9B7EB2000D7138 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3D3867BF1B9B869A000D7138 /* DirectionsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsManager.swift; sourceTree = "<group>"; };
+		3D39AACC1BAB7EEA004A6B30 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		3D39AACE1BAB7FD2004A6B30 /* questionnaireCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = questionnaireCellView.xib; sourceTree = "<group>"; };
+		3D39AAD01BAB8AF0004A6B30 /* QuestionnaireTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionnaireTableViewCell.swift; sourceTree = "<group>"; };
+		3D4082011B9F710500EBE92B /* DeliverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliverViewController.swift; sourceTree = "<group>"; };
+		3D4082031B9F711A00EBE92B /* PickupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupViewController.swift; sourceTree = "<group>"; };
+		3D8759D61BA02E2800CE0205 /* TableViewCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellController.swift; sourceTree = "<group>"; };
+		3DD23BBD1BA95FF500620F06 /* GlobalValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalValues.swift; sourceTree = "<group>"; };
+		3DE9D88F1BA01C3100824C25 /* cellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellView.xib; sourceTree = "<group>"; };
+		3DF224B11BA5BCC600B0AFAA /* TasksListChangesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksListChangesViewController.swift; sourceTree = "<group>"; };
+		4918EE63E54DD5E3AFE00F68 /* Pods-BikePonyExpress iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikePonyExpress iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikePonyExpress iOS/Pods-BikePonyExpress iOS.release.xcconfig"; sourceTree = "<group>"; };
+		7A0435A11B6E9D4F00C5D89E /* BPEAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BPEAPI.swift; path = BPEAPI/BPEAPI.swift; sourceTree = "<group>"; };
+		7ACE108C1B71173E00DA2A5C /* BPEAPI-Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BPEAPI-Types.swift"; path = "BPEAPI/BPEAPI-Types.swift"; sourceTree = "<group>"; };
+		7AD4660E1B6E9A5000F854F2 /* BikePonyExpress iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BikePonyExpress iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD466111B6E9A5000F854F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AD466181B6E9A5000F854F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AD4661A1B6E9A5000F854F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AD4661D1B6E9A5000F854F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AD4661F1B6E9A5000F854F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49B8808E51418FDBD962B0C /* Pods-BikePonyExpress iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikePonyExpress iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikePonyExpress iOS/Pods-BikePonyExpress iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AD4660B1B6E9A5000F854F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF60DF2C4D094B15A63CC42 /* Pods_BikePonyExpress_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35588FBB8D909584160B7B10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D49B8808E51418FDBD962B0C /* Pods-BikePonyExpress iOS.debug.xcconfig */,
+				4918EE63E54DD5E3AFE00F68 /* Pods-BikePonyExpress iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D14D4C81C5F55CD00DA3C60 /* Questionnair */ = {
+			isa = PBXGroup;
+			children = (
+				3D321BD01BA762F700AA3E00 /* QuestionnairViewController.swift */,
+				3D39AAD01BAB8AF0004A6B30 /* QuestionnaireTableViewCell.swift */,
+				3D39AACC1BAB7EEA004A6B30 /* RatingControl.swift */,
+				3D39AACE1BAB7FD2004A6B30 /* questionnaireCellView.xib */,
+			);
+			name = Questionnair;
+			sourceTree = "<group>";
+		};
+		3D14D4C91C5F55F300DA3C60 /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				3D3867BA1B9B6AEA000D7138 /* TasksListViewController.swift */,
+				3DF224B11BA5BCC600B0AFAA /* TasksListChangesViewController.swift */,
+				3D8759D61BA02E2800CE0205 /* TableViewCellController.swift */,
+				3DE9D88F1BA01C3100824C25 /* cellView.xib */,
+			);
+			name = TaskList;
+			sourceTree = "<group>";
+		};
+		3D14D4CA1C5F561C00DA3C60 /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				3D321BCE1BA762DD00AA3E00 /* SignatureViewController.swift */,
+				3D321BD21BA76FF200AA3E00 /* Line.swift */,
+				3D321BD41BA775B400AA3E00 /* DrawView.swift */,
+			);
+			name = Signature;
+			sourceTree = "<group>";
+		};
+		3D14D4CD1C617EC000DA3C60 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3D14D4DA1C619ACD00DA3C60 /* SettingsTableViewController.swift */,
+				3D14D4CE1C61903000DA3C60 /* cellViewForPassword.xib */,
+				3D14D4D01C61930D00DA3C60 /* cellViewForPasswordController.swift */,
+				3D14D4D21C6197E000DA3C60 /* switchCellViewController.xib */,
+				3D14D4D61C6198B200DA3C60 /* switchCellViewController.swift */,
+				3D14D4D41C6197F400DA3C60 /* infoCellViewController.xib */,
+				3D14D4D81C619A3600DA3C60 /* infoCellViewController.swift */,
+				3D14D4DC1C619B5E00DA3C60 /* logoutButtonCellViewController.xib */,
+				3D14D4DE1C61A20C00DA3C60 /* logoutCellViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		3D3867C61B9C6C33000D7138 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3D3867B81B9B4AA8000D7138 /* LoginViewController.swift */,
+				3D14D4C91C5F55F300DA3C60 /* TaskList */,
+				3D4082031B9F711A00EBE92B /* PickupViewController.swift */,
+				3D4082011B9F710500EBE92B /* DeliverViewController.swift */,
+				3D14D4CA1C5F561C00DA3C60 /* Signature */,
+				3D14D4C81C5F55CD00DA3C60 /* Questionnair */,
+				3D3867BC1B9B7EB2000D7138 /* MapViewController.swift */,
+				3D14D4CD1C617EC000DA3C60 /* Settings */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		4A7B45E1578866D8DF877210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01767908CEDEFE15A91EBCEB /* Pods_BikePonyExpress_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A0435A31B6E9D5700C5D89E /* BPEAPI */ = {
+			isa = PBXGroup;
+			children = (
+				7A0435A11B6E9D4F00C5D89E /* BPEAPI.swift */,
+				7ACE108C1B71173E00DA2A5C /* BPEAPI-Types.swift */,
+			);
+			name = BPEAPI;
+			sourceTree = "<group>";
+		};
+		7AD466051B6E9A5000F854F2 = {
+			isa = PBXGroup;
+			children = (
+				7A0435A31B6E9D5700C5D89E /* BPEAPI */,
+				7AD466101B6E9A5000F854F2 /* BikePonyExpress iOS */,
+				7AD4660F1B6E9A5000F854F2 /* Products */,
+				35588FBB8D909584160B7B10 /* Pods */,
+				4A7B45E1578866D8DF877210 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7AD4660F1B6E9A5000F854F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AD4660E1B6E9A5000F854F2 /* BikePonyExpress iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AD466101B6E9A5000F854F2 /* BikePonyExpress iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7AD466111B6E9A5000F854F2 /* AppDelegate.swift */,
+				3D3867BF1B9B869A000D7138 /* DirectionsManager.swift */,
+				3DD23BBD1BA95FF500620F06 /* GlobalValues.swift */,
+				3D3867C61B9C6C33000D7138 /* views */,
+				7AD466171B6E9A5000F854F2 /* Main.storyboard */,
+				7AD4661A1B6E9A5000F854F2 /* Assets.xcassets */,
+				7AD4661C1B6E9A5000F854F2 /* LaunchScreen.storyboard */,
+				7AD4661F1B6E9A5000F854F2 /* Info.plist */,
+			);
+			path = "BikePonyExpress iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AD4660D1B6E9A5000F854F2 /* BikePonyExpress iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AD466221B6E9A5000F854F2 /* Build configuration list for PBXNativeTarget "BikePonyExpress iOS" */;
+			buildPhases = (
+				1CC49F231C38EC5AC00EB548 /* Check Pods Manifest.lock */,
+				7AD4660A1B6E9A5000F854F2 /* Sources */,
+				7AD4660B1B6E9A5000F854F2 /* Frameworks */,
+				7AD4660C1B6E9A5000F854F2 /* Resources */,
+				1A27724FC780CBE5553F218C /* Embed Pods Frameworks */,
+				1B10281DD8438828F8F21EF8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BikePonyExpress iOS";
+			productName = "BikePonyExpress iOS";
+			productReference = 7AD4660E1B6E9A5000F854F2 /* BikePonyExpress iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AD466061B6E9A5000F854F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = BikePonyExpress;
+				TargetAttributes = {
+					7AD4660D1B6E9A5000F854F2 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = R728LW57W2;
+					};
+				};
+			};
+			buildConfigurationList = 7AD466091B6E9A5000F854F2 /* Build configuration list for PBXProject "BikePonyExpress iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AD466051B6E9A5000F854F2;
+			productRefGroup = 7AD4660F1B6E9A5000F854F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AD4660D1B6E9A5000F854F2 /* BikePonyExpress iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AD4660C1B6E9A5000F854F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE9D8901BA01C3100824C25 /* cellView.xib in Resources */,
+				3D14D4D31C6197E000DA3C60 /* switchCellViewController.xib in Resources */,
+				7AD4661E1B6E9A5000F854F2 /* LaunchScreen.storyboard in Resources */,
+				7AD4661B1B6E9A5000F854F2 /* Assets.xcassets in Resources */,
+				3D14D4DD1C619B5E00DA3C60 /* logoutButtonCellViewController.xib in Resources */,
+				3D14D4CF1C61903000DA3C60 /* cellViewForPassword.xib in Resources */,
+				7AD466191B6E9A5000F854F2 /* Main.storyboard in Resources */,
+				3D14D4D51C6197F400DA3C60 /* infoCellViewController.xib in Resources */,
+				3D39AACF1BAB7FD2004A6B30 /* questionnaireCellView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A27724FC780CBE5553F218C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikePonyExpress iOS/Pods-BikePonyExpress iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B10281DD8438828F8F21EF8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikePonyExpress iOS/Pods-BikePonyExpress iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CC49F231C38EC5AC00EB548 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AD4660A1B6E9A5000F854F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D14D4D71C6198B200DA3C60 /* switchCellViewController.swift in Sources */,
+				3D3867C01B9B869A000D7138 /* DirectionsManager.swift in Sources */,
+				3D14D4DF1C61A20C00DA3C60 /* logoutCellViewController.swift in Sources */,
+				3DF224B21BA5BCC700B0AFAA /* TasksListChangesViewController.swift in Sources */,
+				3D321BD51BA775B400AA3E00 /* DrawView.swift in Sources */,
+				3D39AAD11BAB8AF0004A6B30 /* QuestionnaireTableViewCell.swift in Sources */,
+				3D3867B91B9B4AA8000D7138 /* LoginViewController.swift in Sources */,
+				3D39AACD1BAB7EEA004A6B30 /* RatingControl.swift in Sources */,
+				3D8759D71BA02E2800CE0205 /* TableViewCellController.swift in Sources */,
+				7A0435A21B6E9D4F00C5D89E /* BPEAPI.swift in Sources */,
+				3DD23BBE1BA95FF500620F06 /* GlobalValues.swift in Sources */,
+				3D321BCF1BA762DD00AA3E00 /* SignatureViewController.swift in Sources */,
+				7AD466121B6E9A5000F854F2 /* AppDelegate.swift in Sources */,
+				3D4082021B9F710500EBE92B /* DeliverViewController.swift in Sources */,
+				3D3867BB1B9B6AEA000D7138 /* TasksListViewController.swift in Sources */,
+				3D321BD31BA76FF200AA3E00 /* Line.swift in Sources */,
+				7ACE108D1B71173E00DA2A5C /* BPEAPI-Types.swift in Sources */,
+				3D321BD11BA762F800AA3E00 /* QuestionnairViewController.swift in Sources */,
+				3D3867BD1B9B7EB2000D7138 /* MapViewController.swift in Sources */,
+				3D4082041B9F711A00EBE92B /* PickupViewController.swift in Sources */,
+				3D14D4D91C619A3600DA3C60 /* infoCellViewController.swift in Sources */,
+				3D14D4DB1C619ACD00DA3C60 /* SettingsTableViewController.swift in Sources */,
+				3D14D4D11C61930D00DA3C60 /* cellViewForPasswordController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AD466171B6E9A5000F854F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AD466181B6E9A5000F854F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AD4661C1B6E9A5000F854F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AD4661D1B6E9A5000F854F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AD466201B6E9A5000F854F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AD466211B6E9A5000F854F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AD466231B6E9A5000F854F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49B8808E51418FDBD962B0C /* Pods-BikePonyExpress iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "BikePonyExpress iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.bikeponyexpress.BikePonyExpress-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7AD466241B6E9A5000F854F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4918EE63E54DD5E3AFE00F68 /* Pods-BikePonyExpress iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "BikePonyExpress iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.bikeponyexpress.BikePonyExpress-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AD466091B6E9A5000F854F2 /* Build configuration list for PBXProject "BikePonyExpress iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD466201B6E9A5000F854F2 /* Debug */,
+				7AD466211B6E9A5000F854F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AD466221B6E9A5000F854F2 /* Build configuration list for PBXNativeTarget "BikePonyExpress iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD466231B6E9A5000F854F2 /* Debug */,
+				7AD466241B6E9A5000F854F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AD466061B6E9A5000F854F2 /* Project object */;
+}

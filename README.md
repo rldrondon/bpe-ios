@@ -1,2 +1,2 @@
-# bpe-ios
-BikePonyExpress iOS App
+# bpe-ios-dev
+BikePonyExpress iOS App – Dev
